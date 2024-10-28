@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reklama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./libs/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Header - START -->
+    <div class="wrapper">
+        <div class="content">
+            <header class="">
+                <!-- Header - NAV -->
+                <nav>
+                    <div class="header__info d-flex justify-content-between align-items-center container">
+                        <img src="./img/Zaffa_logo.png" alt="Logo" class="zaffa__logo">
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./img/Rus.png" width="26" height="26" alt="Logo" class="btn-logo">РУС
+                            </button>
+
+
+                            <ul class="dropdown-menu header__list" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#"><img src="./img/Rus.png" alt="Rus"
+                                            class="dropdown-item-logo">РУС</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./img/Uzb Logo.png" alt="Uzb"
+                                            class="dropdown-item-logo">УЗБ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Header - NAV -->
+
+                <!-- Header - Content -->
+                <div class="header__content container">
+                    <!-- Header - Texts -->
+                    <div class="header__texts">
+                        <div class="header__line"></div>
+                        <h1 class="header__title title1">
+                            Начните создавать сайты будущего уже сегодня!
+                        </h1>
+
+                        <p class="header__text">
+                            Начните создавать сайты будущего уже сегодня! Изучите фронтенд-разработку и создавайте
+                            веб-сайты
+                            нового поколения!
+                        </p>
+
+                        <p class="header__text header__text1">
+                            Вместе с Zaffa Academy быстро и эффективно освоите HTML, CSS и JavaScript. Зарегистрируйтесь
+                            сейчас
+                            и сделайте первый шаг
+                        </p>
+                        <div class="header__line1"></div>
+                    </div>
+                    <!-- Header - Texts -->
+
+                    <!-- Header - Block -->
+                    <div class="header__block">
+                        <div class="header__block-title">
+                            <h1>
+                                Заполните форму, чтобы записаться на курс
+                            </h1>
+                        </div>
+
+                        <form href="#">
+                            <!-- 1 - Block -->
+                            <div class="header__block-inputs d-flex justify-content-center align-items-center">
+                                <div class="d-flex flex-column">
+                                    <span>Ф.И.О</span>
+                                    <input type="text" style="background: grey; cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <!-- 2 - Block -->
+                            <div class="header__block-inputs d-flex justify-content-center align-items-center">
+                                <div class="d-flex flex-column">
+                                    <span>Номер телефона</span>
+                                    <input type="tel" maxlength="13" style="background: grey; cursor: pointer;">
+                                </div>
+                            </div>
+
+                            <!-- 3 - Block -->
+                            <div class="header__block-inputs d-flex justify-content-center align-items-center">
+                                <div class="d-flex flex-column">
+                                    <span>Тип группы</span>
+                                    <select id="language" class="selectGroup"
+                                        style="background: grey; cursor: pointer;">
+                                        <option value="group">Группа</option>
+                                        <option value="miniGroup">Мини-группа</option>
+                                        <option value="individualGroup">Индивидуальная группа</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="header__blocks d-flex justify-content-center align-items-center flex-column">
+                                
+                                
+                                <a href="#">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" onclick="openAlert()" id="alert-danger-btn" class="button">
+                                        Отправить запрос
+                                    </button>
+
+
+  
+
+                                </a>
+
+                                <h2>
+                                    Наши администраторы свяжутся с
+                                    вами в течение 20-30 минут
+                                </h2>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Header - Block -->
+                </div>
+                <!-- Header - Content -->
+            </header>
+            <!-- Header - END -->
+
+
+
+            <!-- THis is for img -->
+
+
+
+
+
+
+
+            <div class="ellipses container">
+                <div class="ellipse1"><img src="./img/Group 11.png" alt=""></div>
+                <div class="ellipse2"><img src="./img/Group 11.png" alt=""></div>
+                <div class="ellipse3"></div>
+                <div class="ellipse4"></div>
+                <div class="ellipse5"></div>
+                <div class="ellipse6"></div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- THis is for img -->
+
+
+
+
+            <!-- Main - START -->
+            <main>
+                <section
+                    class="main__content d-flex justify-content-center align-items-center flex-column mt-5 container mb-5">
+                    <div class="main__info animation-up">
+                        <h2 class="mt-5">
+                            Темы, изучаемые в процессе обучения
+                        </h2>
+                    </div>
+
+                    <ul class="tabs animation-up">
+                        <li class="active" rel="tab1">1-2 - месяц</li>
+                        <li rel="tab2">3 - 4 - месяц</li>
+                        <li rel="tab3">5 - 6 - месяц</li>
+                    </ul>
+                    <div class="tab_container animation-up">
+                        <!-- #tab1 -->
+                        <div class="tab">
+                            <h3 class="active tab_drawer_heading" rel="tab1">Tab 1</h3>
+                            <div id="tab1" class="tab_content">
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/html 1.png" alt="Word">
+                                        <h2 class="title__main text-white">HTML</h2><img src="./img/Group 16.png"
+                                            alt="Word" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                HTML — это стандартизированный язык разметки для отображения документов
+                                                в
+                                                браузере. Мы изучим его, чтобы уметь размещать на веб-странице текст,
+                                                изображения, таблицы и видео.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/css-3 1.png" alt="Word">
+                                        <h2 class="title__main text-white">CSS</h2><img src="./img/Group 16.png"
+                                            alt="Word" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                CSS — это язык стилей, который позволяет задавать внешний вид и
+                                                оформление
+                                                элементов веб-страницы. Мы научимся стилизовать страницы, делая их
+                                                красивыми и
+                                                удобными для пользователя.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/figma 1.png" alt="Word">
+                                        <h2 class="title__main text-white">Figma</h2><img src="./img/Group 16.png"
+                                            alt="Word" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                Figma — это онлайн-инструмент для создания интерфейсов и прототипов. Мы
+                                                будем
+                                                использовать его для разработки макетов веб-страниц и приложений
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #tab2 -->
+                        <div class="tab">
+                            <h3 class="tab_drawer_heading" rel="tab2">Tab 2</h3>
+                            <div id="tab2" class="tab_content">
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/scss.png" alt="Excel">
+                                        <h2 class="title__main text-white">Scss</h2><img src="./img/Group 16.png"
+                                            alt="Excel" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                SCSS — это расширение языка CSS, которое добавляет мощные возможности,
+                                                такие как переменные, вложенные правила и миксины. Мы изучим, как с
+                                                помощью SCSS писать более организованный и переиспользуемый CSS-код, что
+                                                ускорит и упростит процесс создания стилей для веб-страниц.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/Bootstrap.png" alt="Excel">
+                                        <h2 class="title__main text-white">Bootstrap</h2><img src="./img/Group 16.png"
+                                            alt="Excel" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                Bootstrap — это популярный CSS-фреймворк, который позволяет быстро
+                                                создавать
+                                                адаптивные веб-страницы. Мы изучим, как использовать готовые компоненты
+                                                для
+                                                ускорения разработки.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/git.png" alt="Excel">
+                                        <h2 class="title__main text-white">GIT</h2><img src="./img/Group 16.png"
+                                            alt="Excel" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                Git — это система контроля версий, которая помогает отслеживать
+                                                изменения в
+                                                коде. Мы научимся работать с ветвями, коммитами и слиянием изменений.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/github.png" alt="Excel">
+                                        <h2 class="title__main text-white">GIT HUB</h2><img src="./img/Group 16.png"
+                                            alt="Excel" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                GitHub — это платформа для хранения и совместной работы над проектами с
+                                                использованием Git. Мы изучим, как размещать и управлять проектами на
+                                                GitHub.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #tab3 -->
+                        <div class="tab">
+                            <h3 class="tab_drawer_heading" rel="tab3">Tab 3</h3>
+                            <div id="tab3" class="tab_content">
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/JS.png" alt="PowerPoint">
+                                        <h2 class="accordion__point title__main text-white">JAVASCRIPT</h2><img
+                                            src="./img/Group 16.png" alt="PowerPoint" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                JavaScript — это язык программирования, который позволяет создавать
+                                                интерактивные элементы на веб-страницах. Мы изучим основные концепции,
+                                                такие как
+                                                переменные, функции и события, чтобы добавить динамику на сайты.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/jQuery.png" alt="PowerPoint" width="43px" height="43px">
+                                        <h2 class="accordion__point title__main text-white">Jquery</h2><img
+                                            src="./img/Group 16.png" alt="PowerPoint" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                jQuery — это библиотека JavaScript, которая упрощает написание кода и
+                                                улучшает кроссбраузерную совместимость. Мы изучим, как с помощью jQuery
+                                                выбирать элементы, добавлять к ним события и создавать динамические
+                                                страницы.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/jQuery.png" alt="PowerPoint" width="43px" height="43px">
+                                        <h2 class="accordion__point title__main text-white">Jquery data table</h2><img
+                                            src="./img/Group 16.png" alt="PowerPoint" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                jQuery DataTables — это мощный плагин для упрощенного управления
+                                                HTML-таблицами. Мы изучим, как с помощью этого плагина добавлять к
+                                                таблицам функции поиска, сортировки и постраничной навигации.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/gsap.png" alt="PowerPoint" width="43px" height="43px">
+                                        <h2 class="accordion__point title__main text-white">Gsap</h2><img
+                                            src="./img/Group 16.png" alt="PowerPoint" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                GSAP — это мощная библиотека для создания плавных и сложных анимаций на
+                                                веб-страницах. Мы научимся анимировать элементы, работать с временными
+                                                шкалами и добавлять интерактивные эффекты.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/chart_JS.jpg" alt="PowerPoint" width="43px" height="43px">
+                                        <h2 class="accordion__point title__main text-white">Chart js</h2><img
+                                            src="./img/Group 16.png" alt="PowerPoint" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                Chart.js — это простая в использовании библиотека для создания
+                                                интерактивных графиков и диаграмм. Мы изучим, как с помощью Chart.js
+                                                визуализировать данные и настраивать различные типы графиков, такие как
+                                                линейные, круговые и столбчатые диаграммы.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion">
+                                    <div class="accordion__block">
+                                        <img src="./img/codepen_logo.jpg" alt="PowerPoint" width="43px" height="43px">
+                                        <h2 class="accordion__point title__main text-white">Codepen ui</h2><img
+                                            src="./img/Group 16.png" alt="PowerPoint" class="accordion__img">
+                                    </div>
+
+                                    <div class="accordion__txt">
+                                        <p>
+                                        <ul>
+                                            <li class="text-white">
+                                                CodePen — это популярная платформа для фронтенд-разработчиков, где можно
+                                                быстро создавать, тестировать и делиться своими проектами. Мы разберем
+                                                интерфейс CodePen и научимся эффективно использовать его для
+                                                демонстрации и разработки веб-решений.
+                                            </li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .tab_container -->
+                </section>
+            </main>  
+
+
+            <div id="alert" class="alert">
+                <div class="alert-inner">
+                  <div class="alert-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="alert-icon">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="alert-body">
+                    <h4 class="alert-title">Успешно!!!</h4>
+                    <div class="alert-text">
+                      <p>Ваши данные успешно отправлены ждите ответа!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- Main - END -->
+    
+    <script src="./libs/gsap.min.js"></script>
+    <script src="./libs/ScrollTrigger.min.js"></script>
+    <script src="./libs/ScrollSmoother.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+
+
+    <script src="./js/main.js"></script>
+
+    <script src="libs/jquery.min.js"></script>
+
+
+    <script src="js/landing/landing.js"></script>
+
+
+</body>
+
+</html>
